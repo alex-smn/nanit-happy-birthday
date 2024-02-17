@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA890AA12B812B0E00A27913 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA890AA02B812B0E00A27913 /* BackgroundImageView.swift */; };
+		FA890AA52B81550100A27913 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA890AA42B81550100A27913 /* Colors.xcassets */; };
 		FA90A61D2B7CD70B00FAB59F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */; };
-		FAE31D7C2B7B8A1900C90B20 /* nanit_happy_birthdayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D7B2B7B8A1900C90B20 /* nanit_happy_birthdayApp.swift */; };
+		FA90A61F2B7E1B3A00FAB59F /* HappyBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A61E2B7E1B3A00FAB59F /* HappyBirthdayView.swift */; };
+		FA90A6212B7E2F0500FAB59F /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A6202B7E2F0500FAB59F /* CongratulationsView.swift */; };
+		FAB29A382B7FB66100C87330 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB29A372B7FB66100C87330 /* ColorPalette.swift */; };
+		FAB29A3A2B7FB68100C87330 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB29A392B7FB68100C87330 /* DetailsViewModel.swift */; };
+		FAB29A3C2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB29A3B2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift */; };
+		FAB29A3E2B7FBDB100C87330 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB29A3D2B7FBDB100C87330 /* DataSource.swift */; };
+		FAE31D7C2B7B8A1900C90B20 /* HappyBirthdayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D7B2B7B8A1900C90B20 /* HappyBirthdayApp.swift */; };
 		FAE31D7E2B7B8A1900C90B20 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D7D2B7B8A1900C90B20 /* DetailsView.swift */; };
 		FAE31D802B7B8A1C00C90B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE31D7F2B7B8A1C00C90B20 /* Assets.xcassets */; };
 		FAE31D832B7B8A1C00C90B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE31D822B7B8A1C00C90B20 /* Preview Assets.xcassets */; };
@@ -16,16 +24,23 @@
 		FAE31D8C2B7B9D4A00C90B20 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D8B2B7B9D4A00C90B20 /* ActionButtonView.swift */; };
 		FAE31D8E2B7BAE6700C90B20 /* CelebrantPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D8D2B7BAE6700C90B20 /* CelebrantPhotoView.swift */; };
 		FAE31D952B7BC01200C90B20 /* CelebrantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D942B7BC01200C90B20 /* CelebrantData.swift */; };
-		FAE31D972B7BCB6800C90B20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D962B7BCB6800C90B20 /* Constants.swift */; };
 		FAE31D992B7BD51F00C90B20 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31D982B7BD51F00C90B20 /* CameraManager.swift */; };
 		FAE31DA62B7BDD0A00C90B20 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31DA52B7BDD0A00C90B20 /* CameraError.swift */; };
 		FAE31DAC2B7BE1AD00C90B20 /* CameraErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31DAB2B7BE1AD00C90B20 /* CameraErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA890AA02B812B0E00A27913 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		FA890AA42B81550100A27913 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FA90A61E2B7E1B3A00FAB59F /* HappyBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayView.swift; sourceTree = "<group>"; };
+		FA90A6202B7E2F0500FAB59F /* CongratulationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsView.swift; sourceTree = "<group>"; };
+		FAB29A372B7FB66100C87330 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		FAB29A392B7FB68100C87330 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		FAB29A3B2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayViewModel.swift; sourceTree = "<group>"; };
+		FAB29A3D2B7FBDB100C87330 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		FAE31D782B7B8A1900C90B20 /* nanit-happy-birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nanit-happy-birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE31D7B2B7B8A1900C90B20 /* nanit_happy_birthdayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanit_happy_birthdayApp.swift; sourceTree = "<group>"; };
+		FAE31D7B2B7B8A1900C90B20 /* HappyBirthdayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayApp.swift; sourceTree = "<group>"; };
 		FAE31D7D2B7B8A1900C90B20 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		FAE31D7F2B7B8A1C00C90B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE31D822B7B8A1C00C90B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,7 +48,6 @@
 		FAE31D8B2B7B9D4A00C90B20 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 		FAE31D8D2B7BAE6700C90B20 /* CelebrantPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrantPhotoView.swift; sourceTree = "<group>"; };
 		FAE31D942B7BC01200C90B20 /* CelebrantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrantData.swift; sourceTree = "<group>"; };
-		FAE31D962B7BCB6800C90B20 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAE31D982B7BD51F00C90B20 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		FAE31DA52B7BDD0A00C90B20 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		FAE31DAB2B7BE1AD00C90B20 /* CameraErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraErrorView.swift; sourceTree = "<group>"; };
@@ -50,6 +64,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA890A9D2B80E55500A27913 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAB29A3D2B7FBDB100C87330 /* DataSource.swift */,
+				FAE31D942B7BC01200C90B20 /* CelebrantData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA890A9F2B80F49C00A27913 /* Photo picker */ = {
+			isa = PBXGroup;
+			children = (
+				FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */,
+				FAE31DAD2B7BE3F700C90B20 /* Camera */,
+			);
+			path = "Photo picker";
+			sourceTree = "<group>";
+		};
+		FAB29A342B7FB5A200C87330 /* Details screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAE31D7D2B7B8A1900C90B20 /* DetailsView.swift */,
+				FAB29A392B7FB68100C87330 /* DetailsViewModel.swift */,
+			);
+			path = "Details screen";
+			sourceTree = "<group>";
+		};
+		FAB29A352B7FB5BF00C87330 /* Birthday screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA90A61E2B7E1B3A00FAB59F /* HappyBirthdayView.swift */,
+				FAB29A3B2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift */,
+				FA90A6202B7E2F0500FAB59F /* CongratulationsView.swift */,
+				FA890AA02B812B0E00A27913 /* BackgroundImageView.swift */,
+			);
+			path = "Birthday screen";
+			sourceTree = "<group>";
+		};
+		FAB29A362B7FB5D800C87330 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAE31D8D2B7BAE6700C90B20 /* CelebrantPhotoView.swift */,
+				FAE31D8B2B7B9D4A00C90B20 /* ActionButtonView.swift */,
+				FAE31D892B7B9B3C00C90B20 /* ColorExtensions.swift */,
+				FAB29A372B7FB66100C87330 /* ColorPalette.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		FAE31D6F2B7B8A1800C90B20 = {
 			isa = PBXGroup;
 			children = (
@@ -69,14 +132,15 @@
 		FAE31D7A2B7B8A1900C90B20 /* nanit-happy-birthday */ = {
 			isa = PBXGroup;
 			children = (
-				FAE31D8F2B7BBA6100C90B20 /* Views */,
-				FAE31D912B7BBBBF00C90B20 /* Data */,
-				FAE31DAE2B7BE44D00C90B20 /* Camera */,
-				FAE31D7B2B7B8A1900C90B20 /* nanit_happy_birthdayApp.swift */,
+				FAE31D7B2B7B8A1900C90B20 /* HappyBirthdayApp.swift */,
+				FAB29A342B7FB5A200C87330 /* Details screen */,
+				FAB29A352B7FB5BF00C87330 /* Birthday screen */,
+				FA890A9F2B80F49C00A27913 /* Photo picker */,
+				FA890A9D2B80E55500A27913 /* Data */,
+				FAB29A362B7FB5D800C87330 /* Common */,
 				FAE31D7F2B7B8A1C00C90B20 /* Assets.xcassets */,
+				FA890AA42B81550100A27913 /* Colors.xcassets */,
 				FAE31D812B7B8A1C00C90B20 /* Preview Content */,
-				FAE31D892B7B9B3C00C90B20 /* ColorExtensions.swift */,
-				FAE31D962B7BCB6800C90B20 /* Constants.swift */,
 			);
 			path = "nanit-happy-birthday";
 			sourceTree = "<group>";
@@ -89,46 +153,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAE31D8F2B7BBA6100C90B20 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FAE31D7D2B7B8A1900C90B20 /* DetailsView.swift */,
-				FAE31D8D2B7BAE6700C90B20 /* CelebrantPhotoView.swift */,
-				FAE31DAD2B7BE3F700C90B20 /* Image picker */,
-				FAE31D902B7BBA7200C90B20 /* Common */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		FAE31D902B7BBA7200C90B20 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				FAE31D8B2B7B9D4A00C90B20 /* ActionButtonView.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		FAE31D912B7BBBBF00C90B20 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				FAE31D942B7BC01200C90B20 /* CelebrantData.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		FAE31DAD2B7BE3F700C90B20 /* Image picker */ = {
-			isa = PBXGroup;
-			children = (
-				FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */,
-				FAE31DAB2B7BE1AD00C90B20 /* CameraErrorView.swift */,
-			);
-			path = "Image picker";
-			sourceTree = "<group>";
-		};
-		FAE31DAE2B7BE44D00C90B20 /* Camera */ = {
+		FAE31DAD2B7BE3F700C90B20 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
 				FAE31D982B7BD51F00C90B20 /* CameraManager.swift */,
+				FAE31DAB2B7BE1AD00C90B20 /* CameraErrorView.swift */,
 				FAE31DA52B7BDD0A00C90B20 /* CameraError.swift */,
 			);
 			path = Camera;
@@ -192,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA890AA52B81550100A27913 /* Colors.xcassets in Resources */,
 				FAE31D832B7B8A1C00C90B20 /* Preview Assets.xcassets in Resources */,
 				FAE31D802B7B8A1C00C90B20 /* Assets.xcassets in Resources */,
 			);
@@ -205,16 +235,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE31D7E2B7B8A1900C90B20 /* DetailsView.swift in Sources */,
-				FAE31D7C2B7B8A1900C90B20 /* nanit_happy_birthdayApp.swift in Sources */,
+				FAE31D7C2B7B8A1900C90B20 /* HappyBirthdayApp.swift in Sources */,
 				FAE31D952B7BC01200C90B20 /* CelebrantData.swift in Sources */,
 				FAE31D8A2B7B9B3C00C90B20 /* ColorExtensions.swift in Sources */,
-				FAE31D972B7BCB6800C90B20 /* Constants.swift in Sources */,
 				FAE31D8E2B7BAE6700C90B20 /* CelebrantPhotoView.swift in Sources */,
+				FA90A61F2B7E1B3A00FAB59F /* HappyBirthdayView.swift in Sources */,
 				FAE31D8C2B7B9D4A00C90B20 /* ActionButtonView.swift in Sources */,
+				FAB29A382B7FB66100C87330 /* ColorPalette.swift in Sources */,
+				FA890AA12B812B0E00A27913 /* BackgroundImageView.swift in Sources */,
 				FAE31DAC2B7BE1AD00C90B20 /* CameraErrorView.swift in Sources */,
+				FAB29A3E2B7FBDB100C87330 /* DataSource.swift in Sources */,
 				FA90A61D2B7CD70B00FAB59F /* ImagePicker.swift in Sources */,
 				FAE31D992B7BD51F00C90B20 /* CameraManager.swift in Sources */,
+				FAB29A3A2B7FB68100C87330 /* DetailsViewModel.swift in Sources */,
+				FA90A6212B7E2F0500FAB59F /* CongratulationsView.swift in Sources */,
 				FAE31DA62B7BDD0A00C90B20 /* CameraError.swift in Sources */,
+				FAB29A3C2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -330,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -356,8 +392,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,8 +424,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
