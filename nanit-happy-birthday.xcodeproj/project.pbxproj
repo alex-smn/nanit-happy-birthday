@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA890AA12B812B0E00A27913 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA890AA02B812B0E00A27913 /* BackgroundImageView.swift */; };
 		FA890AA52B81550100A27913 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA890AA42B81550100A27913 /* Colors.xcassets */; };
+		FA890AA72B81EF5100A27913 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA890AA62B81EF5100A27913 /* ViewExtensions.swift */; };
 		FA90A61D2B7CD70B00FAB59F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */; };
 		FA90A61F2B7E1B3A00FAB59F /* HappyBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A61E2B7E1B3A00FAB59F /* HappyBirthdayView.swift */; };
 		FA90A6212B7E2F0500FAB59F /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90A6202B7E2F0500FAB59F /* CongratulationsView.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		FA890AA02B812B0E00A27913 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		FA890AA42B81550100A27913 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FA890AA62B81EF5100A27913 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		FA90A61C2B7CD70B00FAB59F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FA90A61E2B7E1B3A00FAB59F /* HappyBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayView.swift; sourceTree = "<group>"; };
 		FA90A6202B7E2F0500FAB59F /* CongratulationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 		FAB29A392B7FB68100C87330 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		FAB29A3B2B7FBA0B00C87330 /* HappyBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayViewModel.swift; sourceTree = "<group>"; };
 		FAB29A3D2B7FBDB100C87330 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		FAC1FE3F2B8215D20058BFB4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAE31D782B7B8A1900C90B20 /* nanit-happy-birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nanit-happy-birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE31D7B2B7B8A1900C90B20 /* HappyBirthdayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayApp.swift; sourceTree = "<group>"; };
 		FAE31D7D2B7B8A1900C90B20 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 				FAE31D8B2B7B9D4A00C90B20 /* ActionButtonView.swift */,
 				FAE31D892B7B9B3C00C90B20 /* ColorExtensions.swift */,
 				FAB29A372B7FB66100C87330 /* ColorPalette.swift */,
+				FA890AA62B81EF5100A27913 /* ViewExtensions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -141,6 +145,7 @@
 				FAE31D7F2B7B8A1C00C90B20 /* Assets.xcassets */,
 				FA890AA42B81550100A27913 /* Colors.xcassets */,
 				FAE31D812B7B8A1C00C90B20 /* Preview Content */,
+				FAC1FE3F2B8215D20058BFB4 /* README.md */,
 			);
 			path = "nanit-happy-birthday";
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				FAE31D7C2B7B8A1900C90B20 /* HappyBirthdayApp.swift in Sources */,
 				FAE31D952B7BC01200C90B20 /* CelebrantData.swift in Sources */,
 				FAE31D8A2B7B9B3C00C90B20 /* ColorExtensions.swift in Sources */,
+				FA890AA72B81EF5100A27913 /* ViewExtensions.swift in Sources */,
 				FAE31D8E2B7BAE6700C90B20 /* CelebrantPhotoView.swift in Sources */,
 				FA90A61F2B7E1B3A00FAB59F /* HappyBirthdayView.swift in Sources */,
 				FAE31D8C2B7B9D4A00C90B20 /* ActionButtonView.swift in Sources */,

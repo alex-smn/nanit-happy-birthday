@@ -10,12 +10,13 @@ import PhotosUI
 import UIKit
 
 struct CelebrantPhotoView: View {
-    static let IMAGE_WIDTH = 225.0
-    static let IMAGE_HEIGHT = 225.0
+    static private let IMAGE_WIDTH = 225.0
+    static private let IMAGE_HEIGHT = 225.0
 
     var colorPalette: ColorPalette
-    
     var image: Binding<UIImage?>
+    var isCameraButtonVisible: Bool = true
+    
     @StateObject private var cameraManager = CameraManager()
     
     @State private var showingImageSourceDialog: Bool = false
@@ -78,6 +79,7 @@ struct CelebrantPhotoView: View {
                         ImagePicker(sourceType: .photoLibrary, selectedImage: self.image)
                     }
                 }
+                .isHidden(!isCameraButtonVisible)
         }
     }
 }

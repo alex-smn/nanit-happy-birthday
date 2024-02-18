@@ -9,9 +9,8 @@ import SwiftUI
 import UIKit
 
 struct BackgroundImageView: View {
-    
     let name: String
-    @State private var backgroundFrame: CGSize = .zero
+    @State var backgroundFrame: CGSize
     
     private func image(name: String, parentSize: CGSize) -> UIImage {
         if let uiImage = UIImage(named: name) {
@@ -26,7 +25,6 @@ struct BackgroundImageView: View {
         return UIImage()
     }
     
-    
     var body: some View {
         GeometryReader { geometry in
             Image(uiImage: image(name: name, parentSize: geometry.size))
@@ -37,4 +35,8 @@ struct BackgroundImageView: View {
         }
         .edgesIgnoringSafeArea(.all)
     }
+}
+
+#Preview {
+    BackgroundImageView(name: ColorPalette.green.backgroundImageName, backgroundFrame: UIScreen.main.bounds.size)
 }
